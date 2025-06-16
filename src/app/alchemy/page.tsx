@@ -2,29 +2,27 @@
 
 import Image from 'next/image';
 import Footer from '../components/Footer';
+import Link from 'next/link';
 
 export default function AlchemyPage() {
     return (
         <div className="relative min-h-screen bg-black text-white">
-            <div className='bg-black flex justify-center items-center'>
-                <Image
-                    src="/images/logo-removebg-preview.png"
-                    alt="Background Image"
-                    width={920}
-                    height={920}
-                    className="w-1/3 h-36 bg-black object-contain shadow-lg"
-                />
-            </div>
-            {/* 🔹 Background Image */}
-            <div
-                className="absolute inset-0 z-0 bg-cover bg-center opacity-20"
-                style={{ backgroundImage: "url('/images/alchemy-bg.jpg')" }}
-            ></div>
+            <Link href="/">
+                <div className='bg-black flex justify-center items-center'>
+                    <Image
+                        src="/images/logo-removebg-preview.png"
+                        alt="Background Image"
+                        width={920}
+                        height={920}
+                        className="w-1/3 h-36 bg-black object-contain shadow-lg"
+                    />
+                </div>
+            </Link>
 
             {/* 🔹 Overlay Content */}
             <div className="relative z-10 px-4 md:px-20 py-6 backdrop-blur-sm">
                 {/* Title */}
-                <h1 className="text-4xl md:text-6xl font-bold font-[var(--font-caprasimo)] text-center mb-8">
+                <h1 className="text-4xl md:text-6xl font-bold  text-center mb-8">
                     Alchemy of Souls
                 </h1>
 
@@ -44,7 +42,6 @@ export default function AlchemyPage() {
 
                 {/* Image Gallery Placeholder */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {/* Replace these with your own images later */}
                     <div className="rounded-lg overflow-hidden shadow-lg bg-black">
                         <Image
                             src="/images/alchemy-image-2.jpeg"
@@ -59,7 +56,6 @@ export default function AlchemyPage() {
                             src="/videos/alchemy-video-1.mp4"
                             controls
                             className="w-full h-[300px] object-contain"
-                            // poster="/images/alchemy-image-2.jpeg"
                         />
                     </div>
                     <div className="rounded-lg overflow-hidden shadow-lg bg-black">
@@ -73,7 +69,7 @@ export default function AlchemyPage() {
                     </div>
                 </div>
                 <h2>
-                    <span className="font-[var(--font-caprasimo)] text-2xl md:text-3xl bg-gray-900 rounded p-4  mt-8 block text-center">
+                    <span className=" text-2xl md:text-3xl bg-gray-900 rounded p-4 font-semibold  mt-8 block text-center">
                         Caidee Cameron we need a season 3 of Alchemy of Souls!!!!!
                     </span>
                 </h2>

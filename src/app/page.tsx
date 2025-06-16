@@ -37,29 +37,31 @@ export default function Home() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-2 md:p-10">
         <Link href="/alchemy" className="">
           <h2 className='text-xl text-white font-bold text-center'>Alchemy Of Souls</h2>
-        <div>
-          <DramaCarousel images={[
-            '/images/alchemy-image-2.jpeg',
-            '/images/alchemy-image-3.jpg',
-            '/images/alchemy-image-4.webp',
-            // '/images/alchemy-image-5.jpeg',
-            '/images/alchemy-image-6.webp',
-            '/images/alchemy-image-7.webp',
-          ]} />
-          <h2 className='text-xl text-white font-bold text-center'>Alchemy Of Souls</h2>
-        </div>
+          <div>
+            <DramaCarousel images={[
+              '/images/alchemy-image-2.jpeg',
+              '/images/alchemy-image-3.jpg',
+              '/images/alchemy-image-4.webp',
+              // '/images/alchemy-image-5.jpeg',
+              '/images/alchemy-image-6.webp',
+              '/images/alchemy-image-7.webp',
+            ]} />
+            <h2 className='text-xl text-white font-bold text-center'>Alchemy Of Souls</h2>
+          </div>
         </Link>
 
-        <div>
-          <DramaCarousel images={[
-            '/images/kings-image-1.webp',
-            '/images/kings-image-2.webp',
-            '/images/kings-image-3.webp',
-            '/images/kings-image-4.webp',
-            '/images/kings-image-5.jpg',
-          ]} />
-          <h2 className='text-xl text-white font-bold text-center'>The Kings Affection</h2>
-        </div>
+        <Link href="/affection" className="">
+          <div>
+            <DramaCarousel images={[
+              '/images/kings-image-1.webp',
+              '/images/kings-image-2.webp',
+              '/images/kings-image-3.webp',
+              '/images/kings-image-4.webp',
+              '/images/kings-image-5.jpg',
+            ]} />
+            <h2 className='text-xl text-white font-bold text-center'>The Kings Affection</h2>
+          </div>
+        </Link>
 
         <div>
           <DramaCarousel images={[
