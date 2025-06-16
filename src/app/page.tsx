@@ -12,7 +12,7 @@ export default function Home() {
           alt="Background Image"
           width={920}
           height={920}
-          className="w-1/3 h-24 bg-black object-contain shadow-lg"
+          className="w-1/3 h-36 bg-black object-contain shadow-lg"
         />
       </div>
       <div className="flex flex-col items-center w-full  bg-center bg-cover opacity-90 rounded-lg shadow-lg"
@@ -112,7 +112,16 @@ export default function Home() {
             '/images/hometown-image-4.webp',
           ]} />
           <h2 className='text-xl text-white font-bold text-center'>Hometown Cha Cha Cha</h2>
+        </div>
 
+        <div>
+          <DramaCarousel images={[
+            '/images/diva-image-1.jpg',
+            '/images/diva-image-2.jpg',
+            '/images/diva-image-3.png',
+            '/images/diva-image-4.webp',
+          ]} />
+          <h2 className='text-xl text-white font-bold text-center'>Castaway Diva</h2>
         </div>
       </div>
       <Footer />
