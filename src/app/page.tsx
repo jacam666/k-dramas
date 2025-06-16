@@ -1,4 +1,4 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import DramaCarousel from './components/DramaCarousel';
 
 export default function Home() {
@@ -33,6 +33,16 @@ export default function Home() {
             '/images/alchemy-image-7.webp',
           ]} />
           <h2 className='text-xl text-white font-bold text-center'>Alchemy Of Souls</h2>
+        </div>
+
+        <div>
+          <DramaCarousel images={[
+            '/images/kings-image-1.webp',
+            '/images/kings-image-2.webp',
+            '/images/kings-image-3.webp',
+            '/images/kings-image-4.webp',
+          ]} />
+          <h2 className='text-xl text-white font-bold text-center'>The Kings Affection</h2>
         </div>
 
         <div>
