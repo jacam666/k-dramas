@@ -22,7 +22,7 @@ export default function AlchemyPage() {
             ></div>
 
             {/* 🔹 Overlay Content */}
-            <div className="relative z-10 px-4 md:px-20 py-12 backdrop-blur-sm">
+            <div className="relative z-10 px-4 md:px-20 py-6 backdrop-blur-sm">
                 {/* Title */}
                 <h1 className="text-4xl md:text-6xl font-bold font-[var(--font-caprasimo)] text-center mb-8">
                     Alchemy of Souls
@@ -72,6 +72,11 @@ export default function AlchemyPage() {
                         />
                     </div>
                 </div>
+                <h2>
+                    <span className="font-[var(--font-caprasimo)] text-2xl md:text-3xl bg-gray-900 rounded p-4  mt-8 block text-center">
+                        Caidee Cameron we need a season 3 of Alchemy of Souls!!!!!
+                    </span>
+                </h2>
             </div>
             <Footer />
         </div>
