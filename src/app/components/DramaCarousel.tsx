@@ -50,14 +50,14 @@ export default function DramaCarousel({ images }: DramaCarouselProps) {
             <button
                 onClick={scrollPrev}
                 disabled={!canScrollPrev}
-                className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white px-2 py-1 rounded"
+                className="absolute top-1/2 left-2 transform -translate-y-1/2  bg-opacity-50 text-white px-2 py-1 rounded"
             >
                 ◀
             </button>
             <button
                 onClick={scrollNext}
                 disabled={!canScrollNext}
-                className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white px-2 py-1 rounded"
+                className="absolute top-1/2 right-2 transform -translate-y-1/2  bg-opacity-50 text-white px-2 py-1 rounded"
             >
                 ▶
             </button>

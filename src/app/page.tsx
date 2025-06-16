@@ -12,7 +12,7 @@ export default function Home() {
           A LIST OF OUR FAVOURITE <br />K-DRAMAS
         </p>
       </div>
-      <div>
+      <div className='flex justify-center items-center mb-8'>
         <Image
           src="/images/bg-image-3.jpeg"
           alt="Background Image"
