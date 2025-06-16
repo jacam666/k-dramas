@@ -4,7 +4,7 @@ import DramaCarousel from './components/DramaCarousel';
 export default function Home() {
   return (
     <div className="flex flex-col bg-black h-full">
-      <div className="flex flex-col items-center p-10 w-full  bg-center bg-cover opacity-90 rounded-lg shadow-lg"
+      <div className="flex flex-col items-center pt-10 w-full  bg-center bg-cover opacity-90 rounded-lg shadow-lg"
       // style={{ backgroundImage: "url('/images/bg-image-3.jpeg')" }}
       >
         <h1 className="font-Caprasimo text-3xl xl:text-7xl text-gray-50 font-bold">CAI-DRAMAS</h1>
@@ -18,7 +18,7 @@ export default function Home() {
           alt="Background Image"
           width={1920}
           height={1080}
-          className="w-full h-96 object-cover opacity-90 rounded-lg shadow-lg"
+          className="w-full h-60 object-cover opacity-90 rounded-lg shadow-lg"
         />
       </div>
 
