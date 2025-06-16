@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import DramaCarousel from './components/DramaCarousel';
 import Footer from './components/Footer';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -34,6 +35,8 @@ export default function Home() {
       </div> */}
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-2 md:p-10">
+        <Link href="/alchemy" className="">
+          <h2 className='text-xl text-white font-bold text-center'>Alchemy Of Souls</h2>
         <div>
           <DramaCarousel images={[
             '/images/alchemy-image-2.jpeg',
@@ -45,6 +48,7 @@ export default function Home() {
           ]} />
           <h2 className='text-xl text-white font-bold text-center'>Alchemy Of Souls</h2>
         </div>
+        </Link>
 
         <div>
           <DramaCarousel images={[
