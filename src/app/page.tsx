@@ -1,11 +1,21 @@
 // import Image from 'next/image';
+import Image from 'next/image';
 import DramaCarousel from './components/DramaCarousel';
 import Footer from './components/Footer';
 
 export default function Home() {
   return (
     <div className="flex flex-col bg-black h-full">
-      <div className="flex flex-col items-center pt-10 w-full  bg-center bg-cover opacity-90 rounded-lg shadow-lg"
+      <div className='bg-black flex justify-center items-center'>
+        <Image
+          src="/images/logo-removebg-preview.png"
+          alt="Background Image"
+          width={920}
+          height={920}
+          className="w-1/3 h-24 bg-black object-contain shadow-lg"
+        />
+      </div>
+      <div className="flex flex-col items-center w-full  bg-center bg-cover opacity-90 rounded-lg shadow-lg"
       // style={{ backgroundImage: "url('/images/bg-image-3.jpeg')" }}
       >
         <h1 className="font-[var(--font-caprasimo)] text-4xl xl:text-7xl text-gray-50 font-bold ">CAI-DRAMAS</h1>
