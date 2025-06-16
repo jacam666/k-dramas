@@ -1,5 +1,6 @@
 // import Image from 'next/image';
 import DramaCarousel from './components/DramaCarousel';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -41,6 +42,7 @@ export default function Home() {
             '/images/kings-image-2.webp',
             '/images/kings-image-3.webp',
             '/images/kings-image-4.webp',
+            '/images/kings-image-5.jpg',
           ]} />
           <h2 className='text-xl text-white font-bold text-center'>The Kings Affection</h2>
         </div>
@@ -67,7 +69,15 @@ export default function Home() {
 
         <div>
           <DramaCarousel images={[
-            // '/images/vincenzo-image-1.jpg',
+            '/images/plankton-image-1.webp',
+            '/images/plankton-image-2.webp',
+            '/images/plankton-image-3.webp',
+          ]} />
+          <h2 className='text-xl text-white font-bold text-center'>Mr Plankton</h2>
+        </div>
+
+        <div>
+          <DramaCarousel images={[
             '/images/vincenzo-image-2.webp',
             '/images/vincenzo-image-3.jpg',
             '/images/vincenzo-image-4.webp',
@@ -95,6 +105,7 @@ export default function Home() {
 
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
