@@ -63,6 +63,17 @@ export default function Home() {
           </div>
         </Link>
 
+        <Link href="/hongrang" className="">
+          <div>
+            <DramaCarousel images={[
+              '/images/hongrang-image-1.jpg',
+              '/images/hongrang-image-2.webp',
+              '/images/hongrang-image-3.jpg',
+              '/images/hongrang-image-4.webp',
+            ]} />
+            <h2 className='text-xl text-white font-bold text-center'>Dear Hongrang</h2>
+          </div>
+        </Link>
         <div>
           <DramaCarousel images={[
             '/images/hongrang-image-3.jpg',
