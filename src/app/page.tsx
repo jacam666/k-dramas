@@ -36,7 +36,6 @@ export default function Home() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-2 md:p-10">
         <Link href="/alchemy" className="">
-          <h2 className='text-xl text-white font-bold text-center'>Alchemy Of Souls</h2>
           <div>
             <DramaCarousel images={[
               '/images/alchemy-image-2.jpeg',
@@ -74,16 +73,8 @@ export default function Home() {
             <h2 className='text-xl text-white font-bold text-center'>Dear Hongrang</h2>
           </div>
         </Link>
-        <div>
-          <DramaCarousel images={[
-            '/images/hongrang-image-3.jpg',
-            '/images/hongrang-image-2.webp',
-            '/images/hongrang-image-4.webp',
-            '/images/hongrang-image-5.jpg',
-          ]} />
-          <h2 className='text-xl text-white font-bold text-center'>Dear Hongrang</h2>
-        </div>
 
+<Link href="/woo">
         <div>
           <DramaCarousel images={[
             // '/images/woo-image-1.jpg',
@@ -93,6 +84,7 @@ export default function Home() {
           ]} />
           <h2 className='text-xl text-white font-bold text-center'>Extraordinary Attorney Woo</h2>
         </div>
+        </Link>
 
         <div>
           <DramaCarousel images={[
